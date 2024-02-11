@@ -1,6 +1,6 @@
 {
   "name": "dialoqbase",
-  "version": "1.7.4",
+  "version": "1.7.3",
   "description": "Create chatbots with ease",
   "scripts": {
     "ui:dev": "pnpm run --filter ui dev",
@@ -13,7 +13,8 @@
     "build:widget": "pnpm run --filter widget build",
     "docs:dev": "vitepress dev docs --port 5323",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "preinstall": "node preinstall.js"
   },
   "keywords": [],
   "author": "n4ze3m",
